@@ -19,7 +19,7 @@ const PORT = process.env.PORT || 3002 ;
 const mongo_uri = process.env.MONGO_URL ;
 
 app.use(cors({
-  origin: ['https://stock-trading-platform-mvlj.onrender.com'], // Array of allowed origins
+  origin: ['https://stock-trading-platform-mvlj.onrender.com' , 'http://localhost:3001'], // Array of allowed origins
   credentials: true, // Enable credentials (cookies, auth headers, etc.)
 }));
 
